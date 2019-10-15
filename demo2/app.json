@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/me/me",
+    "pages/login/login",
+    "pages/message/detail/msgadetail"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#33a7d6",
+    "navigationBarTitleText": "小程序demo",
+    "navigationBarTextStyle": "white",
+    "onReachBottomDistance": 0
+  },
+  "tabBar": {
+    "color": "#778ea6",
+    "selectedColor": "#33a7d6",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/home.png",
+        "selectedIconPath": "img/homeSelected.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "img/message.png",
+        "selectedIconPath": "img/messageSelected.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "img/me.png",
+        "selectedIconPath": "img/meSelected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,119 @@
+/* pages/my/info.wxss */
+.head{
+    display:flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+}
+.head view{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+}
+.imageloc{
+    padding: absolute;
+    right: 20rpx;
+}
+/* .head image{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+} */
+.iconimage1{
+    width:140rpx;
+    height:140rpx;
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+    margin-right: 30rpx;
+}
+.iconimage{
+    position: absolute;
+    width:50rpx;
+    height:50rpx;
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+    margin-left: 100rpx;
+}
+.qiyeinfo-top{
+    margin-left: 20rpx;
+}
+
+.qyname{
+    font-size: 32rpx;
+    color: #353f41;
+}
+.qyauth{
+    font-size: 32rpx;
+    color: #778ea6;
+}
+
+.cell_with_line{
+    height: 16rpx;
+    background-color: #ecf4f8;
+}
+
+.weui-btn{
+    background: #f4de3b!important;
+    color:#000!important;
+}
+
+.from{
+    display: flex;
+    flex-direction: column;
+  }
+
+.qiyeinfo{
+    line-height: 66rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #d5e5ec;
+    padding: 10px;
+    font-size: 32rpx;
+    color: #353f41;
+  }
+
+  .qiyeinfophone{
+    line-height: 66rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #d5e5ec;
+    padding: 10px;
+    font-size: 32rpx;
+    color: #353f41;
+    background-color: #ECF4F8;
+  }
+
+  .qiyerenzheng{
+    font-size: 28rpx;
+    color: #778ea6; 
+  }
+  
+.qiyeinfo_dw{
+  display: inline;
+  float: right;
+  font-size: 32rpx;
+  color: #999999;
+}
+.qiyeinfo_loc{
+    display: flex;
+    align-items: center;
+}
+
+.cityheader{
+    background-color: #e1e1e1;
+}
+
+.citypicker{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 1px #eee solid;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+

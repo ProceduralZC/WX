@@ -1,0 +1,21 @@
+<view class="container">
+    <block wx:for="{{list}}" wx:key="key">
+        <view class="brand_item" data-id='{{index}}' catchtap='onlineClick'>
+            <icon class="pic" style="visibility:{{item.isRead == 1 ? 'hidden' : 'visible'}}"></icon>
+            <view class="right_cont">
+                <text class="name">{{item.name}}</text>
+                <text class="time">{{item.cate_sname}}</text>
+            </view>
+        </view>
+        <!-- </navigator> -->
+    </block>
+</view>
+
+<view class="weui-loadmore" hidden="{{isHideLoadMore}}">
+ <view class="weui-loading"></view>
+ <view class="weui-loadmore__tips">正在加载</view>
+</view>
+
+<view class="weui-loadmore" hidden="{{isHideNoMore}}">
+ <view class="weui-loadmore__tips">没有更多数据了</view>
+</view>

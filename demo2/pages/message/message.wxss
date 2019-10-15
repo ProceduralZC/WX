@@ -1,0 +1,65 @@
+page{
+    background: #fff;
+    font-size: 14px;
+}
+.container .brand_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #e4e4e4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.container .brand_item .pic{
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    border-radius: 100%;
+    background-color: #f7bc92;
+}
+.right_cont{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    width: 90%;
+}
+.right_cont .name{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    color: #353f41;
+    font-size: 32rpx;
+    width: 100%;
+    float: left;
+}
+  
+  .weui-loadmore {
+    width: 65%;
+    margin: 1.5em auto;
+    line-height: 1.6em;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .weui-loadmore__tips {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .right_receive{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .right_receive .time{
+    position: relative;
+    color: #778ea6;
+    width: 70%;
+    float: left;
+    margin-top: 10rpx;
+    font-size: 24rpx;
+}

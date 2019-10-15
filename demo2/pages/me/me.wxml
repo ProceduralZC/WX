@@ -1,0 +1,36 @@
+<view class="page" bindtap="closeErr">
+<view class="weui-toptips weui-toptips_warn" wx:if="{{showTopTips}}">{{errorMsg}}</view>
+ <!--页头-->
+ <view>
+  <view class="head">   
+    <!-- <view><image src="{{userInfo.avatarUrl}}" bindtap="dateAvatar"></image></view> -->
+    <view>
+        <image  class="iconimage" src="/img/icon-camera.png" bindtap="dateAvatar"/>
+        <image  class="iconimage1" src="/img/defaultPhoto.png"/>
+    </view>
+
+    <view class="qiyeinfo-top">
+        <text class="qyname" >{{username}}</text>
+    </view>
+  </view>
+
+  <view class="cell_with_line"></view>
+
+<view class="form">  
+
+    <view class="qiyeinfophone" >手机号
+        <view class="qiyeinfo_dw">
+            <view class="qiyerenzheng">{{userphone}}</view>
+        </view>
+    </view>
+
+    <view class="qiyeinfo" bindtap = "sexType">性别
+        <view class="qiyeinfo_dw">
+            <view class="qiyerenzheng">{{usersex}}</view>
+        </view>
+    </view>
+
+
+ </view>
+</view>
+ </view>
