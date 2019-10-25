@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<!--pages/projectList/projectList.wxml-->
+<view class='cell' 
+      wx:for="{{projects}}" 
+      wx:key="{{index}}"
+      bindtap='toProjectDetailPage'
+      data-orderId="{{item.id}}">
+  <!-- <project-cell
+  name="{{item.name}}"
+  content="{{item.content}}"
+  item="{{item}}"></project-cell> -->
+    <view>
+      <text class='cell-title' style='color: #353f41;'>{{item.title}}</text>
+
+    </view>
+
+</view>
+
+<refresh-footer id="refreshFooter">
+</refresh-footer>

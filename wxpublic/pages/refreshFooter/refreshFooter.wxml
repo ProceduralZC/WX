@@ -1,0 +1,9 @@
+<!--pages/refreshFooter/refreshFooter.wxml-->
+<view class="weui-loadmore" hidden="{{refreshState == 0 || refreshState == 2}}">
+ <view class="weui-loading"></view>
+ <view class="weui-loadmore__tips">正在加载</view>
+</view>
+
+<view class="weui-loadmore" hidden="{{refreshState == 0 || refreshState == 1}}">
+ <view class="weui-loadmore__tips">没有更多数据了</view>
+</view>

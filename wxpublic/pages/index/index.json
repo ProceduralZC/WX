@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "refresh-footer": "../refreshFooter/refreshFooter"
+  },
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "公用模块"
+}

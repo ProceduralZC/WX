@@ -1,0 +1,24 @@
+/* pages/refreshFooter/refreshFooter.wxss */
+.weui-loading {
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-animation: weuiLoading 1s steps(12, end) infinite;
+    animation: weuiLoading 1s steps(12, end) infinite;
+    background-size: 100%;
+}
+
+.weui-loadmore {
+  width: 65%;
+  margin: 1.5em auto;
+  line-height: 1.6em;
+  font-size: 14px;
+  text-align: center;
+}
+
+.weui-loadmore__tips {
+  display: inline-block;
+  vertical-align: middle;
+}

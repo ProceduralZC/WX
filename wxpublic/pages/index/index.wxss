@@ -1,0 +1,6 @@
+/**index.wxss**/
+/* pages/projectList/projectList.wxss */
+
+.cell {
+  border-bottom: solid 2rpx #d5e5ec;
+}
